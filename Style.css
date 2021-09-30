@@ -1,0 +1,53 @@
+
+canvas {
+    width: 450px;
+    height: 450px;
+    border: 5px solid black;
+    margin: auto
+}
+
+.h1 {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    text-shadow:2px 2px #fff300;
+    text-decoration:underline
+}
+
+.div1 {
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    text-align:center
+}
+
+.div2 {
+    width: 100%;
+    margin-top: 10px;
+    height: 1000px;
+}
+
+.div3 {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.div5 {
+    text-align: center;
+    height: 30px
+}
+.div4{
+    padding-top: 2px;
+    text-align: center;
+    width: 100%
+
+}
+.bt {
+    background: black   ;
+    color: white;
+    text-shadow:2px 2px red;
+    border-radius: 5px;
+
+}
