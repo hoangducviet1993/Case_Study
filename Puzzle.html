@@ -9,15 +9,25 @@
 
 </head>
 <body>
+
 <div id="top" class="div1">
     <h1 class="h1">PUZZLE-GAME</h1>
     <div class="div2">
         <div>
             <div class="div3">
+                <div class="div5">
+                    <h1 id="message"></h1>
+                </div>
+                <div class="div5">
+                    <h1 id="moves"></h1>
+                    <audio src="aud.mp3" id="cheers"></audio>
+                    <audio src="cut2.mp3" id="cut"></audio>
+                    <audio src="loi.mp3" id="error"></audio>
+                </div>
                 <div>
                     <canvas id="canvas" height="450px" width="450px"></canvas>
                     <br>
-                    <button onclick="button()" class="bt" ><h3>Bắt Đầu</h3></button>
+                    <button onclick="button()" class="bt" ><h3>Bắt Đầu/Reset</h3></button>
                 </div>
 
             </div>
@@ -41,7 +51,15 @@
         </div>
     </div>
 </div>>
+<script>
+    let canvans = document.getElementById("canvas");
+    let ctx = canvans.getContext("2d");
+    let empty = 0; // ô trống
+    let moves = 0; // bước di chuyển
+</script>
 <script src="Shuffle.js"></script>
+<script src="CheckWin.js"></script>
 <script src="Canvans.js"></script>
+<script src="Move.js"></script>
 </body>
 </html>

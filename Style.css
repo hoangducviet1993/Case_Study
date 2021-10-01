@@ -1,4 +1,8 @@
 
+body{
+    background:  url("images/background.png");
+    background-size: cover;
+}
 canvas {
     width: 450px;
     height: 450px;
