@@ -1,5 +1,5 @@
 let restart = 0
-function won() {
+function checkWin() {
     ctx.clearRect(300, 300, 150, 150);
     let img = document.getElementById("puzz9");
     dra = ctx.createPattern(img, "repeat");

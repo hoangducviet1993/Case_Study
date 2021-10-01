@@ -30,7 +30,7 @@ function draw() {
     console.log(t);
 
     if (t === false) {
-        won();
+        checkWin();
     }
 }
 
