@@ -1,4 +1,5 @@
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 0];
+
 function draw() {
     moves++;
     mov = document.getElementById("moves").innerHTML = "Số bước " + moves.toString();
@@ -52,10 +53,10 @@ function component(x, y) {
 
     ctx.fillRect(150 * x, 150 * y, 150, 150);
 }
+
 function button() {
-    moves--;
-    restart= 1;
+    moves = -1;
+    restart = 1;
     draw();
     return
 }
-

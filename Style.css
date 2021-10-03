@@ -1,6 +1,6 @@
 
 body{
-    background:  url("images/background.png");
+    /*background:  url("images1/background.png");*/
     background-size: cover;
 }
 canvas {
@@ -52,6 +52,11 @@ canvas {
     background: black   ;
     color: white;
     text-shadow:2px 2px red;
+    border-radius: 5px;
+
+}.bt2 {
+    background: black   ;
+    color: white;
     border-radius: 5px;
 
 }
